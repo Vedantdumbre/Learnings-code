@@ -11,7 +11,8 @@
 // . we can never chanage the value or content inside the const 
 
 //3.Let
-// . 
+// . kisi bhi type ka data(partof code) store karne liye lagne wali space.
+// .let new js me hai(es6)
 
 
 
