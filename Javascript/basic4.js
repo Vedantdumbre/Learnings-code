@@ -1,8 +1,8 @@
 // Primitive and Reference types
 
-// 1.Primitive  -> values which are written in singukar form i.e only one value for one variable 
+// 1.Primitive  -> values which are written in singular form i.e only one value for one variable 
 // . these are always writen without braces
-// . we can copy(assign the value to diff. variable) the value without any difficuty
+// . we can copy(assign the value to diff. variable) the value without any difficulty
 //EX.
 var a=121;
 var b=a;

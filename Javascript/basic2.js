@@ -19,10 +19,10 @@
 // DIFF.btwn var  & let const
 
 // 1.var old me tha(es5)
-// 2.var' function scoped' hota hai => var apne parent function me kahi bhi use ho sakta hai
+// 2.var 'function scoped' hota hai => var apne parent function me kahi bhi use ho sakta hai
 
 function abcd(){
-    for ( var i =1;i<12;i++){  // heer of we put let or const instead of var the code wont 12 because let and const 'braces scoped hai' 
+    for ( var i =1;i<12;i++){  // here if we put let or const instead of var the code wont run because let and const 'braces scoped hai' 
         console.log(i);
     }
         console.log(i);
@@ -34,4 +34,4 @@ abcd();
 
 // 1.let new js me hai(es6)
 // 2.let const 'braces scope' hota hai 
-// 3.let const doesnt add
+// 3.let const doesnt add window object. 

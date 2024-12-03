@@ -20,7 +20,7 @@ let result = age >= 18 ? "adult" : "not adult";
 console.log(result);
 
 // js me kuch bhi likho wo mainly 2 prakar ke hote hai 
-// 1.falsy : falsy values are -> 0, false, undefined, null, NaN, document.all
+// 1.falsy : falsy values are -> 0, false, undefined, null, NaN(not a number), document.all
 // 2.truthy
 
 if (-1) {
