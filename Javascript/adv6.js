@@ -4,7 +4,7 @@
 
 
 //Protopypal Inheritance:
-//prototypal inheritance means ek parent ki vakue apne child ko dedena
+//prototypal inheritance means ek parent ki value apne child ko dedena
 
 //EX.
 var human={
@@ -17,4 +17,4 @@ var humankabaccha={
     canDance:true,
 }
 
- humankabaccha.__proto__=human;  // this is the correct wway to write a prototypal inheritance
+ humankabaccha.__proto__=human;  // this is the correct way to write a prototypal inheritance

@@ -1,5 +1,5 @@
 // iife -> immedietly invoked function expression 
-// . iife hai function ko turant chalane ki kala, is tareeke se ki tum log koi private variable bana paye 
+// . iife hai function ko turant chalane ki kala, is tareeke se ki tum log koi private variable bana payega
 // . it cant be directly accessed by any user   
 
 //EX.
