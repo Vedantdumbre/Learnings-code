@@ -16,3 +16,10 @@ home.innerHTML = "<i>hey kiase ho</i>"; // yahape hume "innerhtml" isiliye use k
 // 4. text change :
 home.textContent = "<I>hey kiase ho</I>"; // main diff innerhtml aur textcontent ka hai ki wo dono bhi html ke tags me jake kuch bhi likh sakte hai but; textchange me hum jo bhi likhenge wo as it is hume page pe dikhayi denelagega ;IN THIS CASE: hume yahape <I>hey kiase ho</I> likha hhua milega 
 
+// 5.adding listners:
+home.addEventListener('mouseenter', function(){ // yaha pe hum ek listner ki help se hover effect kr rahe hai
+    home.style.color = "blue";
+});
+home.addEventListener('mouseleave', function(){
+    home.style.color = "red";
+});
