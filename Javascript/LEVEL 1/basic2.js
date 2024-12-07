@@ -1,11 +1,11 @@
 // var let const
 
-//1. Variables:
+//1. Var:
 // . kisi bhi type ka data(partof code) store karne liye lagne wali space.
 // . always indicated on left 
 // . we can change the content written in it
 
-//2.Constants
+//2.Const:
 // . kisi bhi type ka data(partof code) store karne liye lagne wali space.
 // . always indicated on left 
 // . we can never chanage the value or content inside the const 
