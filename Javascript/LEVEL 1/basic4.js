@@ -17,8 +17,8 @@ var a=[12,13,14,15];
 var b=a;
 b.pop();
 
+
 //How to copy inreference types?
 var a =[1,2,3,4,5];
-var b=[...a];
+var b=[...a];  // its necessary to print 3 dots as it defines copying the value of a in a systematic manner
 b.pop();
-// its necessary to print 3 dots as it defines copying the value of a in a systematic manner
