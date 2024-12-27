@@ -8,7 +8,9 @@ console.log(arr);
 
 //How arrays are made behind the scenes?
 //-> when we make a array in js it is actually a 'object' js converts our array into object always while executing 
+// -> hum kehsakte hai ki js me array ek object hi hai , wo kaam kaise karte hai ex. dekhke samajhte hai
 
+// how array is executed behind the scenes?
 var arr=[1,2,3,4]   // this is a array made
 
 arr = {
