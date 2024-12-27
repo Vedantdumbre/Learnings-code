@@ -19,3 +19,5 @@ var obj ={
     age : 18
 }
 delete obj.age;
+
+// use JSON FORMATER for api understandign and to improve api readability

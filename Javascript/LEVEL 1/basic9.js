@@ -1,4 +1,4 @@
-// push pop shift unshift splice
+// push pop shift unshift splice in ARRAYS
 // EX.
 var arr = [1,2,3,4,5];
 arr.push(8); //here 8 is pushed at the very end of the array
