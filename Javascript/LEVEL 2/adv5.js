@@ -1,4 +1,4 @@
-// iife -> immedietly invoked function expression 
+// iife -> immedietly invoked function expression (advanced type ka func.)
 // . iife hai function ko turant chalane ki kala, is tareeke se ki tum log koi private variable bana payega
 // . it cant be directly accessed by any user   
 
