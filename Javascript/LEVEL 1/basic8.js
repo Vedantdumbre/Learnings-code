@@ -22,7 +22,7 @@ arr = {
 
 //Looping Over Arrays : hume jab bhi kabhi kisi array me kisitype ka loop chala na hoto following steps :
 //for loop : 
-let heroes = [ironman , spiderman , captainAmerica];
+let heroes = ["ironman", "spiderman","captainAmerica"];
 
 
 for ( idx=0;idx<heroes.length;idx++ ){   // yahape hum tab loop ko run karenge jab tak hume jarurat hai us vlaue ki
