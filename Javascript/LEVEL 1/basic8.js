@@ -20,6 +20,15 @@ arr = {
     3:4
 }
 
+//Looping Over Arrays : hume jab bhi kabhi kisi array me kisitype ka loop chala na hoto following steps :
+//for loop : 
+let heroes = [ironman , spiderman , captainAmerica];
+
+
+for ( idx=0;idx<heroes.length;idx++ ){   // yahape hum tab loop ko run karenge jab tak hume jarurat hai us vlaue ki
+    console.log(heroes[idx]);    // always remember ek array ki value array ki index value se +1 hoti hai
+}
+
 
 // calllback functions in array 
 // callback is a function which is passed  as an argument to another function.
