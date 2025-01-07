@@ -1,0 +1,1 @@
+to practice js as per the chatgpt roadmap.
