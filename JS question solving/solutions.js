@@ -30,3 +30,21 @@ continue
     }
     console.log(k); 
 } 
+
+//Q4. Break the loop when k is equal to 3.
+
+for( let k=0 ; k<5; k++){
+    if(k==3) {
+        
+break
+;
+    } 
+    console.log(k); 
+}
+
+//Q5. Print the table of two by adding some expression
+
+for (let a = 1; a <= 10; a++) {
+    console.log(2 * a);
+}
+
