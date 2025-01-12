@@ -14,4 +14,14 @@ let tenPercent = marks.length-0.1;
 console.log(tenPercent);
 
 
-// find the median:
+//Consider the following object:
+const car = {
+  brand: 'Volvo',
+  model: 'EX90',
+  drive: function() {
+    return true;
+  }
+};
+//How many properties do the object have? 
+//ANS : 2
+
