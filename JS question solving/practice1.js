@@ -25,3 +25,13 @@ const car = {
 //How many properties do the object have? 
 //ANS : 2
 
+
+//Alert "John" by extracting information from the person object.
+const person = {
+    firstName: "John",
+    lastName: "Doe"
+  };
+  
+  alert(
+  person.firstname   //this is the ans 
+  );
