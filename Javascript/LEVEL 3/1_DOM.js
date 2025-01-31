@@ -1,9 +1,9 @@
-//DOM(Document object manipulation) 
+//DOM(Document objec model) 
 
 //DOM MANIPULATION : html ke kisibhi element ko change kar pana as per our need 
 
 // 1.Slection:
-var home = document.querySelector("#home"); //here home is the place where we will srore our html tag ;here ive used a 'id' to select the home element
+var home = document.querySelector("#home"); //here home is the place where we will store our html tag ;here ive used a 'id' to select the home element
 
 // 2. Changing CSS:
 home.style.color = "red";
