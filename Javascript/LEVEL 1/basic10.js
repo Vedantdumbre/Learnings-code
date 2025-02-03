@@ -2,7 +2,9 @@
 // . object hai ek bande ki details ko hold karna ,in a key value pair
 
 // 1.blank obj
-var a = {}
+var a = {
+    
+}
 
 // 2. filled obj
 var a = {
