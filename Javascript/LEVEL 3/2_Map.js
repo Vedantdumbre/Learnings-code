@@ -10,7 +10,7 @@
     ["apples", 500],
     ["bananas", 300],
     ["oranges", 200]
-  ]);*/
+  ]);*
 
 //2.set( ):
 // Create a Map
