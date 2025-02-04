@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling </title>
+    <style>
+        .child{
+            background-color: pink;
+            padding: 14px;
+            margin: 14px;
+        }
+        .childContainer{
+            background-color: palegoldenrod;
+            padding: 14px;
+            margin: 14px;
+        }
+        .container{
+            background-color: palegreen;
+            padding: 14px;
+            margin: 14px;
+        }
+    </style>
+</head>
+<!-- always remember this topic is very important from the interview perspestive . -->
+ <!-- Event bubbling ka matlab hai ki jab bhi me ek child me ko listen karta hu tab automatically parent bhi use listen kr leta hai ; Agar mujhe ye process ko stop karna hoga to me bas ek line add karunga as "e.stopPropogation();" and ye process stop hojayrega -->
+<body>
+    <div class="container">
+        <div class="childContainer">
+            <div class="child">Click me!</div>
+        </div>
+    </div>
+    <script>
+        document.querySelector(".child").addEventListener("click",(e) =>{
+            e.stopPropagation();  
+            alert("Child was clicked!");
+        })
+        document.querySelector(".childContainer").addEventListener("click",(e) =>{
+            e.stopPropagation(); 
+            alert("childContainer was clicked!");
+        })
+        document.querySelector(".container").addEventListener("click",(e) =>{
+            alert("container was clicked!");
+        })
+    </script>
+</body>
+</html>

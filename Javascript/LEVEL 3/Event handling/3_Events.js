@@ -2,5 +2,5 @@
 let button = document.getElementById("btn");
 
 button.addEventListener("click",()=>{
-    alert("leave  me alone");
+    document.querySelector("h1").innerHTML = "<b> yes i was clicked </b>";
 })
