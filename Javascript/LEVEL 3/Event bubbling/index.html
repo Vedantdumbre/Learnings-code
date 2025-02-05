@@ -42,6 +42,19 @@
         document.querySelector(".container").addEventListener("click",(e) =>{
             alert("container was clicked!");
         })
+
+        // here we are studing about setInterval and setTimeout 
+//1.yahe humne setInterval ka use case dekha ek website me hume jabbhi kuch change karna ho after a certain interval then we can use setInterval 
+        setInterval(() => {
+            alert("container was clicked!");
+        }, 3000);
+
+
+//2.jab hume ek event me ek certain interval ke baad kuch badalna ho tab hum setTimeout ka use karte hai; setTimeout sirt ek baar hi run hota hai 
+
+setTimeout(() => {
+    document.querySelector(".container").style.background-color("red");
+}, 5000);
     </script>
 </body>
 </html>
