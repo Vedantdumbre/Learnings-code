@@ -14,7 +14,7 @@ home.style.fontFamily = "poppins";
 home.innerHTML = "<i>hey kiase ho</i>"; // yahape hume "innerhtml" isiliye use karna hai kyuki hum cahtehai ki hume kisi selected html element ke andar kuch bhi likhneka chance mile;IN THIS CASE: hume "hey kaise ho" likha hua milega website me 
 
 // 4. text change :
-home.textContent = "<I>hey kiase ho</I>"; // main diff innerhtml aur textcontent ka hai ki wo dono bhi html ke tags me jake kuch bhi likh sakte hai but; textchange me hum jo bhi likhenge wo as it is hume page pe dikhayi denelagega ;IN THIS CASE: hume yahape <I>hey kiase ho</I> likha hhua milega 
+home.textContent = "<I>hey kiase ho</I>" ; // main diff innerhtml aur textcontent ka hai ki wo dono bhi html ke tags me jake kuch bhi likh sakte hai but; textchange me hum jo bhi likhenge wo as it is hume page pe dikhayi denelagega ;IN THIS CASE: hume yahape <I>hey kiase ho</I> likha hhua milega 
 
 // 5.adding listners:
 home.addEventListener('mouseenter', function(){ // yaha pe hum ek listner ki help se hover effect kr rahe hai
