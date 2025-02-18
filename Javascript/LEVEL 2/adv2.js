@@ -8,6 +8,7 @@ class circularbiscuitbanao {
         this.color = color;
         this.icon = false;
         this.pressable = true;
+        this.border = border;
     }
 }
 var btn1 = new circularbiscuitbanao("red");
