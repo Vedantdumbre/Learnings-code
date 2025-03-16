@@ -11,6 +11,6 @@ class circularbiscuitbanao {
         this.border = border;
     }
 }
-var btn1 = new circularbiscuitbanao("red");
+var btn1 = new circularbiscuitbanao("black");
 var btn2 = new circularbiscuitbanao("green");
 var btn3 = new circularbiscuitbanao("black");
