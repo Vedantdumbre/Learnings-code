@@ -11,7 +11,7 @@ arr.pop(); //here last value in the array deletes & returns the array again
 var arr = [1,2,3,4,5];
 arr.unshift(0); //here array ke start me 0 add hoga 
 
-var arr = [1,2,3,4,5];
+var arr = [1,2,3,4,6];
 arr.shift(0) // here array ka 1st value dlt hota hai & array return karat hai
 
 var arr = [1,2,3,4,5];
