@@ -9,7 +9,7 @@
 //EX.
 var human={
     canFly:false,
-    canWalk:true,
+    canWalk:false,
     haveFeelings:true
 }
 var humankabaccha={
